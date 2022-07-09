@@ -1,0 +1,201 @@
+*{
+    /* 页面初始化 */
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* 网页背景 */
+    background-color: #f1ebeb;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    /* 网页标题背景，可修改为渐变*/
+    background: rgb(40, 64, 117);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#header h1{
+    /* 网页标题颜色，字号，位置，填充值 */
+    color: aliceblue;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 0px;
+}
+#nav{
+    margin-left: 0px;
+}
+#nav ul{
+    /* 导航栏格式设置 */
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 40px;
+    background-color: #f1f1f1;
+    height:40px ;
+}
+#nav ul li {
+    /* 导航栏列表靠左 */
+    float: left;
+}
+#nav ul li a:link,a:visited {
+    /* 导航栏超链接点击前后格式 */
+    margin-left: 30px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px 8px;
+    font-size: 20px;
+    text-decoration-line: none;
+    }
+#nav ul li a:hover {
+    /* 鼠标悬停在导航栏上时，格式 */
+    background-color: #555;
+    color: white;
+}
+
+#image{
+    /* 首页图片格式 */
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+#inf{
+    /* 导师简要信息靠左 */
+    float: left;
+    margin: 20px 30px;
+}
+
+td{
+    /* 导师简要信息字体大小 */
+    font-size: 18px;
+}
+
+#intro{
+    /* 导师主要信息格式 */
+    margin: 0px 60px;
+    font-size: 18px;
+}
+#intro p{
+    text-indent: 33px;
+    margin:5px 0px;
+    line-height: 150%;
+}
+
+#requirment{
+    /* 招生要求格式 */
+    margin-top: 20px;
+}
+h2{
+    margin-left: 70px;
+    text-align: left;
+    font-size: 20px;
+}
+
+#requirment ul{
+    /* 招生要求格式 */
+    list-style: disc;
+    margin: 0px;
+    padding: 0;
+}
+#requirment ul li{
+    /* 招生要求格式 */
+    margin-left: 60px;
+    display: list-item;
+    text-align: left;
+    padding: 0;
+    font-size: 20px;
+}
+
+.resear-back{
+    background-color: rgb(110, 199, 240); font-size: 20px; padding: 8px 20px; margin: 0px;
+}
+
+.name{
+    /* 论文中人名加粗 */
+    font-weight: bold;
+}
+
+#resear{
+    /* 块边框设置 */
+    margin: 10px 100px;
+    border: 1px solid black;
+}
+#resear ul{
+    /* 论文列表格式设置 */
+    list-style: disc;
+    margin: 0px;
+    padding: 0px;
+}
+#resear ul li{
+    margin-left: 60px;
+    display: list-item;
+    text-align: left;
+    padding: 0;
+    font-size: 18px;
+}
+#resear ul li a:link{
+    color: rgb(102, 102, 238);
+    text-decoration: none;
+}
+#resear ul li a:visited{
+    color: #555;
+    text-decoration: none;
+}
+
+#footer {
+    /* 版权标签设置 */
+    position: fixed;
+    height: 50px;
+    line-height: 50px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    font-family: Arial;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.content {
+    height: 1800px;
+    width: 100%;
+    text-align: center;
+}
+
+#team_inf{
+    margin: 20px 80px;
+}
+#team_inf h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+#team_inf p{
+    text-indent: 33px;
+    margin:5px 0px;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+#news{
+    margin: 0px 80px;
+}
+#news h1{
+    font-size: 22px;
+    text-align: left;
+}
+
+#news ul li {
+    /* 新闻格式 */
+    margin-left: 15px;
+    display: list-item;  
+    color: black;  
+    text-align: left;  
+    padding: 5px 0px;  
+    text-decoration: none;
+    font-size: 18px;
+    }
